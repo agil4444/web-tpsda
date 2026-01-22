@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kerja Praktik - TPSDA ITB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../assets/images/logo-itb.png" alt="Logo ITB" style="height: 50px; width: auto;">
+                <div class="ms-3 brand-title-container">
+                    <span class="brand-text-top">Prodi Sarjana</span>
+                    <span class="brand-text-main">TPSDA ITB</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../profil/sejarah.html"><i class="fas fa-landmark"></i>Sejarah</a></li>
+                            <li><a class="dropdown-item" href="../profil/visi-misi.html"><i class="fas fa-bullseye"></i>Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="../profil/tujuan.html"><i class="fas fa-crosshairs"></i>Tujuan</a></li>
+                            <li><a class="dropdown-item" href="../profil/pimpinan.html"><i class="fas fa-user-tie"></i>Pimpinan</a></li>
+                            <li><a class="dropdown-item" href="../profil/staf-akademik.html"><i class="fas fa-users"></i>Staf Akademik</a></li>
+                            <li><a class="dropdown-item" href="../profil/fasilitas.html"><i class="fas fa-building"></i>Fasilitas</a></li>
+                            <li><a class="dropdown-item" href="../profil/data-fakta.html"><i class="fas fa-chart-bar"></i>Data dan Fakta</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="body-of-knowledge.html"><i class="fas fa-book-open"></i>Body of knowledge</a></li>
+                            <li><a class="dropdown-item" href="tantangan.html"><i class="fas fa-tasks"></i>Tantangan</a></li>
+                            <li><a class="dropdown-item" href="tujuan-pendidikan.html"><i class="fas fa-graduation-cap"></i>Tujuan Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="capaian-lulusan.html"><i class="fas fa-trophy"></i>Capaian Lulusan</a></li>
+                            <li><a class="dropdown-item" href="struktur-kurikulum.html"><i class="fas fa-sitemap"></i>Struktur Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="silabus.html"><i class="fas fa-book"></i>Silabus</a></li>
+                            <li><a class="dropdown-item" href="standar-penilaian.html"><i class="fas fa-check-double"></i>Standar Penilaian</a></li>
+                            <li><a class="dropdown-item active" href="kerja-praktek.html"><i class="fas fa-briefcase"></i>Kerja Praktik</a></li>
+                            <li><a class="dropdown-item" href="tugas-akhir.html"><i class="fas fa-file-alt"></i>Tugas Akhir</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laboratorium</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../laboratorium/lab-hidraulika.html"><i class="fas fa-water"></i>Lab. Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="../laboratorium/lab-model-fisik-hidraulik.html"><i class="fas fa-wave-square"></i>Lab. Model Fisik Hidraulik</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=Laboratorium+TPSDA+ITB" target="_blank">
+                                    <i class="fab fa-youtube text-danger"></i> Video Panduan Praktikum
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kegiatan</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../kegiatan/akreditasi.html"><i class="fas fa-certificate"></i>Akreditasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/prestasi.html"><i class="fas fa-award"></i>Prestasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/kerja-sama.html"><i class="fas fa-handshake"></i>Kerja Sama</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="../materi_kuliah/materi-kuliah.html">Materi Kuliah</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../perpustakaan/perpustakaan.html">Perpustakaan</a></li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Download</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../download/modul-mekanika-fluida.html"><i class="fas fa-file-pdf"></i>Modul Mekanika Fluida</a></li>
+                            <li><a class="dropdown-item" href="../download/modul-hidrologi.html"><i class="fas fa-file-pdf"></i>Modul Hidrologi</a></li>
+                            <li><a class="dropdown-item" href="../download/modul-hidraulika.html"><i class="fas fa-file-pdf"></i>Modul Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="../download/modul-rekayasa-bahan.html"><i class="fas fa-file-pdf"></i>Modul Rekayasa Bahan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://himasda.ftsl.itb.ac.id/">Himpunan Mahasiswa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://itb.ac.id/berita/">Berita</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="article-hero-banner" data-aos="fade-in">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2070&auto=format&fit=crop" alt="Ilustrasi Sumber Daya Air">
+        <div class="hero-text-overlay">
+            <h1>Kerja Praktik</h1>
+            <p>Informasi Program Kerja Praktik Sarjana TPSDA ITB</p>
+        </div>
+    </div>
+
+    <main class="page-content-aesthetic">
+        <div class="container py-5">
+            <div class="row justify-content-center">
+                <div class="col-lg-10"> <article class="article-body">
+
+                        <section id="tujuan" class="mb-5" data-aos="fade-up">
+                            <h3>Tujuan Program Kerja Praktik</h3>
+                            <ul class="check-list mt-3">
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Memberikan pengalaman visual dan pengenalan bagi mahasiswa tentang suatu kegiatan pembangunan fisik yang nyata dan segala aspeknya (kerekayasaan, kontraktual, administratif) di lapangan.
+                                </li>
+                                <li>
+                                    <i class="fas fa-check-circle"></i>
+                                    Membina kemampuan dan keterampilan mahasiswa dengan melibatkan mahasiswa secara langsung dalam pengenalan masalah, pemecahan masalah, team work, koordinasi, dan komunikasi lisan maupun tulisan di bidang ketekniksipilan.
+                                </li>
+                            </ul>
+                        </section>
+
+                        <section id="tahapan" class="mb-5" data-aos="fade-up">
+                            <h3>Tahapan Kegiatan</h3>
+                            <p class="mt-3">Berikut adalah jadwal tahapan kegiatan Kerja Praktik dan pihak-pihak yang terlibat:</p>
+                            <div class="image-card" data-aos="fade-up">
+                                <a href="../assets/images/gantt-chart-kp.png" target="_blank">
+                                    <img src="../assets/images/gantt-chart-kp.png" alt="Gantt Chart Kerja Praktik" class="img-fluid rounded shadow-sm">
+                                </a>
+                                <p class="image-caption"><small>(Gantt Chart Tahapan Kegiatan Kerja Praktik - Klik untuk memperbesar)</small></p>
+                            </div>
+                        </section>
+
+                        <section id="persyaratan" class="mb-5" data-aos="fade-up">
+                            <h3>Persyaratan Kerja Praktik</h3>
+                            <ol class="styled-numbered-list mt-3">
+                                <li><div>Telah lulus semua mata kuliah di tingkat 1 dan 2.</div></li>
+                                <li><div>Telah/sedang mengikuti kuliah di tingkat 3.</div></li>
+                                <li><div>Pernah/sedang mengambil mata kuliah Manajemen Konstruksi (SI-3251).</div></li>
+                                <li>
+                                    <div>
+                                        Telah lulus mata kuliah sampai Tingkat 3 (Sarjana Muda), sekurang-kurangnya:
+                                        <ul class="bullet-sub-list mt-2">
+                                            <li>87 SKS dengan IP ≥ 2.80</li>
+                                            <li>96 SKS dengan IP ≥ 2.40</li>
+                                            <li>105 SKS dengan IP ≥ 2.00</li>
+                                        </ul>
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        Mata kuliah Kerja Praktik harus diambil pada KSM di semester yang sedang berjalan. Jika Kerja Praktik berlanjut ke semester berikutnya, mata kuliah Kerja Praktik harus diambil kembali pada KSM semester tersebut dengan tetap memperhatikan batas maksimum 20 SKS. Jika Kerja Praktik tetap tidak dapat diselesaikan selama 2 semester, maka mahasiswa harus mengulang kembali proses Kerja Praktik dari awal. Total waktu pelaksanaan Kerja Praktik adalah maksimum 2 semester.
+                                    </div>
+                                </li>
+                                <li>
+                                    <div>
+                                        Batas waktu pelaksanaan Kerja Praktik adalah minggu terakhir (sebelum UAS) di setiap semester. Jika batas waktu tersebut dilewati, maka mahasiswa secara otomatis tetap dapat melanjutkan kegiatan Kerja Praktik, tetapi nilai Kerja Praktik dibatasi maksimum B. Jika proses Kerja Praktik kemudian berlanjut ke semester kedua, maka nilai Kerja Praktik maksimum adalah C.
+                                    </div>
+                                </li>
+                            </ol>
+                        </section>
+                        
+                        <section id="proses" class="mb-5" data-aos="fade-up">
+                            <h3>Proses Kerja Praktik</h3>
+                            <p>Prosedur pelaksanaan, ujian, dan pengumpulan laporan dapat dilihat pada alur di bawah ini:</p>
+                            
+                            <div class="row g-4 mt-3">
+                                <div class="col-md-6">
+                                    <div class="image-card flow-card">
+                                        <h5>Administrasi & Seleksi</h5>
+                                        <a href="../assets/images/flowchart-administrasi.png" target="_blank">
+                                            <img src="../assets/images/flowchart-administrasi.png" alt="Flowchart Administrasi" class="img-fluid rounded shadow-sm">
+                                        </a>
+                                        <p class="image-caption"><small>Klik untuk memperbesar</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="image-card flow-card">
+                                        <h5>Pelaksanaan di Lapangan</h5>
+                                        <a href="../assets/images/flowchart-pelaksanaan.png" target="_blank">
+                                            <img src="../assets/images/flowchart-pelaksanaan.png" alt="Flowchart Pelaksanaan" class="img-fluid rounded shadow-sm">
+                                        </a>
+                                        <p class="image-caption"><small>Klik untuk memperbesar</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="image-card flow-card">
+                                        <h5>Ujian & Pelaporan</h5>
+                                        <a href="../assets/images/flowchart-ujian.png" target="_blank">
+                                            <img src="../assets/images/flowchart-ujian.png" alt="Flowchart Ujian" class="img-fluid rounded shadow-sm">
+                                        </a>
+                                        <p class="image-caption"><small>Klik untuk memperbesar</small></p>
+                                    </div>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="image-card flow-card">
+                                        <h5>Sistem Penilaian</h5>
+                                        <div class="grading-grid mt-3">
+                                            <div class="grade-item"><div class="grade-label">A (4.0)</div><div class="grade-desc">Sangat baik</div></div>
+                                            <div class="grade-item"><div class="grade-label">B (3.0)</div><div class="grade-desc">Baik</div></div>
+                                            <div class="grade-item"><div class="grade-label">C (2.0)</div><div class="grade-desc">Cukup</div></div>
+                                            <div class="grade-item grade-fail"><div class="grade-label">E (0.0)</div><div class="grade-desc">Gagal</div></div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </section>
+
+                    </article>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+       <div class="container text-center">
+            <p class="text-white-50">&copy; 2025 Jurusan TPSDA ITB. All Rights Reserved.</p>
+       </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 800,
+          once: true
+      });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

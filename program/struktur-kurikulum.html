@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Struktur Kurikulum - TPSDA ITB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="../css/style.css"> 
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="../index.html">
+                <img src="../assets/images/logo-itb.png" alt="Logo ITB" style="height: 50px; width: auto;">
+                <div class="ms-3 brand-title-container">
+                    <span class="brand-text-top">Prodi Sarjana</span>
+                    <span class="brand-text-main">TPSDA ITB</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Profil
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../profil/sejarah.html"><i class="fas fa-landmark"></i>Sejarah</a></li>
+                            <li><a class="dropdown-item" href="../profil/visi-misi.html"><i class="fas fa-bullseye"></i>Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="../profil/tujuan.html"><i class="fas fa-crosshairs"></i>Tujuan</a></li>
+                            <li><a class="dropdown-item" href="../profil/pimpinan.html"><i class="fas fa-user-tie"></i>Pimpinan</a></li>
+                            <li><a class="dropdown-item" href="../profil/staf-akademik.html"><i class="fas fa-users"></i>Staf Akademik</a></li>
+                            <li><a class="dropdown-item" href="../profil/fasilitas.html"><i class="fas fa-building"></i>Fasilitas</a></li>
+                            <li><a class="dropdown-item" href="../profil/data-fakta.html"><i class="fas fa-chart-bar"></i>Data dan Fakta</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle active" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="body-of-knowledge.html"><i class="fas fa-book-open"></i>Body of knowledge</a></li>
+                            <li><a class="dropdown-item" href="tantangan.html"><i class="fas fa-tasks"></i>Tantangan</a></li>
+                            <li><a class="dropdown-item" href="tujuan-pendidikan.html"><i class="fas fa-graduation-cap"></i>Tujuan Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="capaian-lulusan.html"><i class="fas fa-trophy"></i>Capaian Lulusan</a></li>
+                            <li><a class="dropdown-item active" href="struktur-kurikulum.html"><i class="fas fa-sitemap"></i>Struktur Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="silabus.html"><i class="fas fa-book"></i>Silabus</a></li>
+                            <li><a class="dropdown-item" href="standar-penilaian.html"><i class="fas fa-check-double"></i>Standar Penilaian</a></li>
+                            <li><a class="dropdown-item" href="kerja-praktek.html"><i class="fas fa-briefcase"></i>Kerja Praktek</a></li>
+                            <li><a class="dropdown-item" href="tugas-akhir.html"><i class="fas fa-file-alt"></i>Tugas Akhir</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laboratorium</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../laboratorium/lab-hidraulika.html"><i class="fas fa-water"></i>Lab. Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="../laboratorium/lab-model-fisik-hidraulik.html"><i class="fas fa-wave-square"></i>Lab. Model Fisik Hidraulik</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=Laboratorium+TPSDA+ITB" target="_blank">
+                                    <i class="fab fa-youtube text-danger"></i> Video Panduan Praktikum
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kegiatan</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../kegiatan/akreditasi.html"><i class="fas fa-certificate"></i>Akreditasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/prestasi.html"><i class="fas fa-award"></i>Prestasi</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/kerja-sama.html"><i class="fas fa-handshake"></i>Kerja Sama</a></li>
+                            <li><a class="dropdown-item" href="../kegiatan/galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="../materi_kuliah/materi-kuliah.html">Materi Kuliah</a></li>
+                    <li class="nav-item"><a class="nav-link" href="../perpustakaan/perpustakaan.html">Perpustakaan</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Download</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="../download/modul-mekanika-fluida.html"><i class="fas fa-file-pdf"></i>Modul Mekanika Fluida</a></li>
+                            <li><a class="dropdown-item" href="../download/modul-hidrologi.html"><i class="fas fa-file-pdf"></i>Modul Hidrologi</a></li>
+                            <li><a class="dropdown-item" href="../download/modul-hidraulika.html"><i class="fas fa-file-pdf"></i>Modul Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="../download/modul-rekayasa-bahan.html"><i class="fas fa-file-pdf"></i>Modul Rekayasa Bahan</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="https://himasda.ftsl.itb.ac.id/">Himpunan Mahasiswa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://itb.ac.id/berita/">Berita</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="article-hero-banner" data-aos="fade-in">
+        <img src="https://images.unsplash.com/photo-1470770841072-f978cf4d019e?q=80&w=2070&auto=format&fit=crop" alt="Ilustrasi Sumber Daya Air">
+        <div class="hero-text-overlay">
+            <h1>Struktur Kurikulum</h1>
+            <p>Kurikulum 2024 - Sarjana Teknik dan Pengelolaan Sumber Daya Air</p>
+        </div>
+    </div>
+
+    <main class="page-content-aesthetic">
+        <div class="article-container">
+            <header class="article-header" data-aos="fade-up">
+                </header>
+
+            <article class="article-body" data-aos="fade-up" data-aos-delay="100">
+                
+                <ul class="nav nav-tabs curriculum-tabs mb-4" id="curriculumTab" role="tablist">
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link active" id="wajib-tab" data-bs-toggle="tab" data-bs-target="#wajib" type="button" role="tab" aria-controls="wajib" aria-selected="true">Mata Kuliah Wajib</button>
+                    </li>
+                    <li class="nav-item" role="presentation">
+                        <button class="nav-link" id="spesialisasi-tab" data-bs-toggle="tab" data-bs-target="#spesialisasi" type="button" role="tab" aria-controls="spesialisasi" aria-selected="false">Spesialisasi</button>
+                    </li>
+                    </ul>
+
+                <div class="tab-content" id="curriculumTabContent">
+                    
+                    <div class="tab-pane fade show active" id="wajib" role="tabpanel" aria-labelledby="wajib-tab">
+                        <div class="accordion" id="accordionWajib">
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingOne">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                                        Semester 1
+                                    </button>
+                                </h2>
+                                <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>MA1101</td><td>Matematika I</td><td>4</td></tr>
+                                                    <tr><td>FI1101</td><td>Fisika Dasar I</td><td>3</td></tr>
+                                                    <tr><td>KI1101</td><td>Kimia Dasar I</td><td>3</td></tr>
+                                                    <tr><td>WI1101</td><td>Pancasila</td><td>2</td></tr>
+                                                    <tr><td>WI1102</td><td>Berpikir Komputasional</td><td>2</td></tr>
+                                                    <tr><td>WI1103</td><td>Pengantar Prinsip Keberlanjutan</td><td>2</td></tr>
+                                                    <tr><td>WI1111</td><td>Laboratorium Fisika Dasar</td><td>1</td></tr>
+                                                    <tr><td>WI1112</td><td>Laboratorium Kimia Dasar</td><td>1</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingTwo">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                                        Semester 2
+                                    </button>
+                                </h2>
+                                <div id="collapseTwo" class="accordion-collapse collapse" aria-labelledby="headingTwo" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA1201</td><td>Hidrologi</td><td>3</td></tr>
+                                                    <tr><td>SA1202</td><td>Geologi</td><td>3</td></tr>
+                                                    <tr><td>WI2001</td><td>Pengenalan Rekayasa dan Desain</td><td>3</td></tr>
+                                                    <tr><td>WI2002</td><td>Literasi Data dan Intelligensi Artifisial</td><td>2</td></tr>
+                                                    <tr><td>MA1201</td><td>Matematika IIA (Sains dan Rekayasa)</td><td>4</td></tr>
+                                                    <tr><td>WI2003</td><td>Olah Raga</td><td>1</td></tr>
+                                                    <tr><td>WI2004</td><td>Bahasa Inggris</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingThree">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                                        Semester 3
+                                    </button>
+                                </h2>
+                                <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA2102</td><td>Mekanika Fluida</td><td>3</td></tr>
+                                                    <tr><td>SA2103</td><td>Statika</td><td>3</td></tr>
+                                                    <tr><td>SA2104</td><td>Mekanika Tanah</td><td>3</td></tr>
+                                                    <tr><td>SA2105</td><td>Rekayasa Bahan Konstruksi</td><td>3</td></tr>
+                                                    <tr><td>SA2101</td><td>Matematika dan Statistika</td><td>3</td></tr>
+                                                    <tr><td>SA2106</td><td>Ekosistem Air Tawar</td><td>2</td></tr>
+                                                    <tr><td>WF2001</td><td>Menggambar Teknik</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFour">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                                        Semester 4
+                                    </button>
+                                </h2>
+                                <div id="collapseFour" class="accordion-collapse collapse" aria-labelledby="headingFour" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA2201</td><td>Matematika Rekayasa</td><td>3</td></tr>
+                                                    <tr><td>SA2202</td><td>Rekayasa Hidrologi</td><td>3</td></tr>
+                                                    <tr><td>SA2203</td><td>Hidraulika</td><td>3</td></tr>
+                                                    <tr><td>SA2204</td><td>Rekayasa Pondasi Bangunan Air</td><td>3</td></tr>
+                                                    <tr><td>SA2205</td><td>Pemetaan dan Sistem Informasi Geospasial</td><td>3</td></tr>
+                                                    <tr><td>WI201X</td><td>Agama</td><td>2</td></tr>
+                                                    <tr><td>WI2006</td><td>Kewarganegaraan</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingFive">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFive" aria-expanded="false" aria-controls="collapseFive">
+                                        Semester 5
+                                    </button>
+                                </h2>
+                                <div id="collapseFive" class="accordion-collapse collapse" aria-labelledby="headingFive" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA3101</td><td>Sistem dan Rekayasa Irigasi</td><td>3</td></tr>
+                                                    <tr><td>SA3102</td><td>Rekayasa Sungai</td><td>3</td></tr>
+                                                    <tr><td>SA3103</td><td>Analisis Struktur</td><td>3</td></tr>
+                                                    <tr><td>SA3105</td><td>Rekayasa Drainase</td><td>3</td></tr>
+                                                    <tr><td>WI2022</td><td>Manajemen Proyek</td><td>2</td></tr>
+                                                    <tr><td>SA3104</td><td>Hidroklimatologi</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSix">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSix" aria-expanded="false" aria-controls="collapseSix">
+                                        Semester 6
+                                    </button>
+                                </h2>
+                                <div id="collapseSix" class="accordion-collapse collapse" aria-labelledby="headingSix" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA3201</td><td>Rekayasa Pesisir</td><td>3</td></tr>
+                                                    <tr><td>SA3202</td><td>Daya Rusak Air</td><td>3</td></tr>
+                                                    <tr><td>SA3204</td><td>Rekayasa Bendungan</td><td>3</td></tr>
+                                                    <tr><td>SA3205</td><td>Pemodelan Sumber Daya Air</td><td>3</td></tr>
+                                                    <tr><td>SA3206</td><td>Kuliah Kerja Sumber Daya Air</td><td>2</td></tr>
+                                                    <tr><td>SA3203</td><td>Ilmu Tanah</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingSeven">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSeven" aria-expanded="false" aria-controls="collapseSeven">
+                                        Semester 7
+                                    </button>
+                                </h2>
+                                <div id="collapseSeven" class="accordion-collapse collapse" aria-labelledby="headingSeven" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA4101</td><td>Pengelolaan Sumber Daya Air Berkelanjutan</td><td>3</td></tr>
+                                                    <tr><td>WI2005</td><td>Bahasa Indonesia</td><td>2</td></tr>
+                                                    <tr><td>SA4190</td><td>Kerja Praktik</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item">
+                                <h2 class="accordion-header" id="headingEight">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseEight" aria-expanded="false" aria-controls="collapseEight">
+                                        Semester 8
+                                    </button>
+                                </h2>
+                                <div id="collapseEight" class="accordion-collapse collapse" aria-labelledby="headingEight" data-bs-parent="#accordionWajib">
+                                    <div class="accordion-body p-0">
+                                        <div class="table-responsive">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA4290</td><td>Tugas Akhir</td><td>4</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    
+                    <div class="tab-pane fade" id="spesialisasi" role="tabpanel" aria-labelledby="spesialisasi-tab">
+                        
+                        <div class="accordion" id="accordionSpesialisasi">
+                            
+                            <div class="accordion-item" data-aos="fade-up">
+                                <h2 class="accordion-header" id="headingSpesialisasi1">
+                                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpesialisasi1" aria-expanded="true" aria-controls="collapseSpesialisasi1">
+                                        Pengelolaan Sumber Daya Air (17 SKS)
+                                    </button>
+                                </h2>
+                                <div id="collapseSpesialisasi1" class="accordion-collapse collapse show" aria-labelledby="headingSpesialisasi1" data-bs-parent="#accordionSpesialisasi">
+                                    <div class="accordion-body">
+                                        <p class="specialization-description">Paket yang disusun untuk pengelolaan sumber daya air terpadu sebagai proses yang ditujukan untuk meningkatkan pengembangan dan pengelolaan air, lahan dan sumber daya terkait secara terkoordinasi. Mahasiswa yang mengambil spesialisasi ini diharapkan untuk menjadi profesional ataupun pengambil kebijakan di bidang sumber daya air. Skema ini juga diharapkan untuk memudahkan mahasiswa mengambil Magister Pengelolaan Sumber Daya Air.</p>
+                                        <div class="table-responsive mt-3">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA3112</td><td>Teknologi Tepat Guna SDA</td><td>2</td></tr>
+                                                    <tr><td>SA3213</td><td>Proteksi dan Restorasi Rawa dan Pesisir</td><td>3</td></tr>
+                                                    <tr><td>SA4111</td><td>Manajemen Konstruksi Bangunan Air</td><td>2</td></tr>
+                                                    <tr><td>SA4112</td><td>Analisis Sistem SDA dan Hidroinformatika</td><td>3</td></tr>
+                                                    <tr><td>SA4211</td><td>Operasi dan Pemeliharaan Bangunan Air</td><td>2</td></tr>
+                                                    <tr><td>SA4212</td><td>Proteksi dan Restorasi Waduk dan Danau</td><td>3</td></tr>
+                                                    <tr><td>SA4214</td><td>Konservasi Air dan Lahan</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="accordion-item" data-aos="fade-up" data-aos-delay="100">
+                                <h2 class="accordion-header" id="headingSpesialisasi2">
+                                    <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseSpesialisasi2" aria-expanded="false" aria-controls="collapseSpesialisasi2">
+                                        Teknik Sumber Daya Air (18 SKS)
+                                    </button>
+                                </h2>
+                                <div id="collapseSpesialisasi2" class="accordion-collapse collapse" aria-labelledby="headingSpesialisasi2" data-bs-parent="#accordionSpesialisasi">
+                                    <div class="accordion-body">
+                                        <p class="specialization-description">Paket yang disusun untuk mempelajari ilmu rekayasa dalam perencanaan, desain, pengoperasian, serta pemeliharaan bangunan air yang berkaitan dengan sumberdaya air. Mahasiswa yang mengambil spesialisasi ini diharapkan untuk menjadi profesional di bidang teknik sumber daya air setelah lulus dan nantinya mengambil sertifikat keahlian.</p>
+                                        <div class="table-responsive mt-3">
+                                            <table class="table table-hover curriculum-table mb-0">
+                                                <thead><tr><th>Kode</th><th>Mata Kuliah</th><th>SKS</th></tr></thead>
+                                                <tbody>
+                                                    <tr><td>SA3111</td><td>Angkutan Sedimen dan Kualitas Air</td><td>2</td></tr>
+                                                    <tr><td>SA3213</td><td>Proteksi dan Restorasi Rawa dan Pesisir</td><td>3</td></tr>
+                                                    <tr><td>SA4111</td><td>Manajemen Konstruksi Bangunan Air</td><td>2</td></tr>
+                                                    <tr><td>SA4113</td><td>Rekayasa Tenaga Air</td><td>2</td></tr>
+                                                    <tr><td>SA4114</td><td>Pengenalan Model Fisik Hidraulik</td><td>2</td></tr>
+                                                    <tr><td>SA4116</td><td>Analisis Struktur Bangunan Air</td><td>2</td></tr>
+                                                    <tr><td>SA4211</td><td>Operasi dan Pemeliharaan Bangunan Air</td><td>3</td></tr>
+                                                    <tr><td>SA4212</td><td>Proteksi dan Restorasi Waduk dan Danau</td><td>2</td></tr>
+                                                </tbody>
+                                            </table>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div> </div> </div> </article>
+        </div>
+    </main>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+       <div class="container text-center">
+            <p class="text-white-50">&copy; 2025 Jurusan TPSDA ITB. All Rights Reserved.</p>
+       </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 800,
+          once: true
+      });
+    </script>
+    <script src="../js/script.js"></script>
+</body>
+</html>

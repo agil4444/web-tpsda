@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Teknik dan Pengelolaan Sumber Daya Air - ITB</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@700&family=Poppins:wght@400;600;700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    
+    <nav class="navbar navbar-expand-lg navbar-dark sticky-top shadow-sm">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="assets/images/logo-itb.png" alt="Logo ITB" style="height: 50px; width: auto;">
+                <div class="ms-3 brand-title-container">
+                    <span class="brand-text-top">Prodi Sarjana</span>
+                    <span class="brand-text-main">TPSDA ITB</span>
+                </div>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center" id="navbarNav">
+                <ul class="navbar-nav">
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Profil</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="profil/sejarah.html"><i class="fas fa-landmark"></i>Sejarah</a></li>
+                            <li><a class="dropdown-item" href="profil/visi-misi.html"><i class="fas fa-bullseye"></i>Visi dan Misi</a></li>
+                            <li><a class="dropdown-item" href="profil/tujuan.html"><i class="fas fa-crosshairs"></i>Tujuan</a></li>
+                            <li><a class="dropdown-item" href="profil/pimpinan.html"><i class="fas fa-user-tie"></i>Pimpinan</a></li>
+                            <li><a class="dropdown-item" href="profil/staf-akademik.html"><i class="fas fa-users"></i>Staf Akademik</a></li>
+                            <li><a class="dropdown-item" href="profil/fasilitas.html"><i class="fas fa-building"></i>Fasilitas</a></li>
+                            <li><a class="dropdown-item" href="profil/data-fakta.html"><i class="fas fa-chart-bar"></i>Data dan Fakta</a></li>
+                        </ul>
+                    </li>
+
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Program</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="program/body-of-knowledge.html"><i class="fas fa-book-open"></i>Body of knowledge</a></li>
+                            <li><a class="dropdown-item" href="program/tantangan.html"><i class="fas fa-tasks"></i>Tantangan</a></li>
+                            <li><a class="dropdown-item" href="program/tujuan-pendidikan.html"><i class="fas fa-graduation-cap"></i>Tujuan Pendidikan</a></li>
+                            <li><a class="dropdown-item" href="program/capaian-lulusan.html"><i class="fas fa-trophy"></i>Capaian Lulusan</a></li>
+                            <li><a class="dropdown-item" href="program/struktur-kurikulum.html"><i class="fas fa-sitemap"></i>Struktur Kurikulum</a></li>
+                            <li><a class="dropdown-item" href="program/silabus.html"><i class="fas fa-book"></i>Silabus</a></li>
+                            <li><a class="dropdown-item" href="program/standar-penilaian.html"><i class="fas fa-check-double"></i>Standar Penilaian</a></li>
+                            <li><a class="dropdown-item" href="program/kerja-praktek.html"><i class="fas fa-briefcase"></i>Kerja Praktek</a></li>
+                            <li><a class="dropdown-item" href="program/tugas-akhir.html"><i class="fas fa-file-alt"></i>Tugas Akhir</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Laboratorium</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="laboratorium/lab-hidraulika.html"><i class="fas fa-water"></i>Lab. Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="laboratorium/lab-model-fisik-hidraulik.html"><i class="fas fa-wave-square"></i>Lab. Model Fisik Hidraulik</a></li>
+                            
+                            <li><hr class="dropdown-divider"></li>
+                            <li>
+                                <a class="dropdown-item" href="https://www.youtube.com/results?search_query=Laboratorium+TPSDA+ITB" target="_blank">
+                                    <i class="fab fa-youtube text-danger"></i> Video Panduan Praktikum
+                                </a>
+                            </li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Kegiatan</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="kegiatan/akreditasi.html"><i class="fas fa-certificate"></i>Akreditasi</a></li>
+                            <li><a class="dropdown-item" href="kegiatan/prestasi.html"><i class="fas fa-award"></i>Prestasi</a></li>
+                            <li><a class="dropdown-item" href="kegiatan/kerja-sama.html"><i class="fas fa-handshake"></i>Kerja Sama</a></li>
+                            <li><a class="dropdown-item" href="kegiatan/galeri.html"><i class="fas fa-images"></i>Galeri</a></li>
+                        </ul>
+                    </li>
+                    
+                    <li class="nav-item"><a class="nav-link" href="#">Materi Kuliah</a></li>
+                    <li class="nav-item"><a class="nav-link" href="#">Perpustakaan</a></li>
+                    
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">Download</a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="download/modul-mekanika-fluida.html"><i class="fas fa-file-pdf"></i>Modul Mekanika Fluida</a></li>
+                            <li><a class="dropdown-item" href="download/modul-hidrologi.html"><i class="fas fa-file-pdf"></i>Modul Hidrologi</a></li>
+                            <li><a class="dropdown-item" href="download/modul-hidraulika.html"><i class="fas fa-file-pdf"></i>Modul Hidraulika</a></li>
+                            <li><a class="dropdown-item" href="download/modul-rekayasa-bahan.html"><i class="fas fa-file-pdf"></i>Modul Rekayasa Bahan</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item"><a class="nav-link" href="https://himasda.ftsl.itb.ac.id/">Himpunan Mahasiswa</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://itb.ac.id/berita/">Berita</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <section class="hero-section d-flex justify-content-center align-items-center text-white">
+        <div class="container text-center">
+            <h1 class="display-3 fw-bold hero-title-break" data-aos="fade-down">
+                Teknik dan Pengelolaan<br>Sumber Daya Air
+            </h1>
+            <p class="lead hero-subtitle" data-aos="fade-up" data-aos-delay="200">Institut Teknologi Bandung</p>
+        </div>
+    </section>
+
+    <section class="section-berita py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title-light" data-aos="fade-up">Informasi & Berita Terbaru</h2>
+            
+            <div class="row">
+                <div class="col-lg-8 mb-4" data-aos="fade-up" data-aos-delay="200">
+                    <div class="card card-featured h-100">
+                        <div class="card-img-container">
+                            <img src="https://itb.ac.id/files/dokumentasi/20250915-Dantje1(1).jpg" class="card-img-background" alt="Berita Utama">
+                            <div class="card-img-overlay-content">
+                                <span class="card-category">Orasi Ilmiah</span>
+                                <h3 class="card-title">Prof. Dantje Kardana: Peran Komputasi Numerik untuk Infrastruktur Air Masa Depan</h3>
+                            </div>
+                        </div>
+                        <div class="card-body">
+                            <p class="card-text">Prof. Ir. Dantje Kardana Natakusumah, S.T., M.Sc., Ph.D., Guru Besar Teknik Sumber Daya Air, Fakultas Teknik Sipil dan Lingkungan (FTSL), ITB, membawakan orasi ilmiah berjudul “Peran Komputasi Numerik untuk Pengembangan Metode Perhitungan dan Infrastruktur Sumber Daya Air”, di Aula Barat ITB, Sabtu (13/9/2025).</p>
+                            <a href="https://itb.ac.id/berita/orasi-ilmiah-prof-dantje-kardana-natakusumah-komputasi-numerik-untuk-infrastruktur-air/62819" class="read-more-link">Info Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-4" data-aos="fade-up" data-aos-delay="400">
+                    <div class="card card-side mb-3">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/images/kaprodi.png" class="side-thumbnail" alt="Berita Samping 1">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Pesan Hangat Kaprodi untuk Mahasiswa Baru 2025/2026</h6>
+                                    <p class="card-date">5 September 2025</p>
+                                    <a href="https://www.instagram.com/tpsda_itb/reel/DOOV_g2E9_k/" class="read-more-link mt-auto">Info Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side mb-3">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="https://ftsl.itb.ac.id/wp-content/uploads/sites/8/2025/09/FTSL-Mini-Workshop-.jpg" class="side-thumbnail" alt="Berita Samping 2">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">FTSL Gelar Mini Workshop tentang Resiliensi Pesisir</h6>
+                                    <p class="card-date">7 September 2025</p>
+                                    <a href="https://ftsl.itb.ac.id/ftsl-mini-workshop/" class="read-more-link mt-auto">Info Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card card-side">
+                        <div class="row g-0">
+                            <div class="col-4">
+                                <img src="assets/images/katsu.png" class="side-thumbnail" alt="Berita Samping 3">
+                            </div>
+                            <div class="col-8">
+                                <div class="card-body">
+                                    <h6 class="card-title">Kunjungan Pakar dari Western University Canada di Kampus Jatinangor</h6>
+                                    <p class="card-date">11 September 2025</p>
+                                    <a href="https://www.instagram.com/p/DOdT7XRk4-8/?igsh=cXpkNXk5Mno5enl2" class="read-more-link mt-auto">Info Selengkapnya <i class="fas fa-arrow-right ms-1"></i></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="text-center mt-4">
+                <a href="https://itb.ac.id/berita/penelitian" class="btn btn-outline-light">Lihat Semua Berita <i class="fas fa-arrow-right ms-2"></i></a>
+            </div>
+        </div>
+    </section>
+    
+    <section class="section-video py-5">
+        <div class="container">
+            <h2 class="text-center mb-5 section-title-light" data-aos="fade-up">Video Profil dan Kegiatan</h2>
+            <div class="row">
+
+                <div class="col-lg-7 mb-4" data-aos="fade-right" data-aos-delay="200">
+                    <div class="card h-100 shadow-lg border-0">
+                        <div class="ratio ratio-16x9">
+                            <iframe id="main-video-player" src="https://www.youtube.com/embed/tAzPvEIawCM" title="Video Utama" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
+                        <div class="card-body">
+                            <h3 id="main-video-title" class="card-title fw-bold">Pengenalan Jurusan TPSDA ITB</h3>
+                            <p id="main-video-date" class="card-text text-muted small">Dipublikasikan: 18 September 2025</p>
+                            <p id="main-video-desc" class="card-text">
+                                Intip keseruan kuliah di Program Studi Teknik dan Pengelolaan Sumber Daya Air, dari belajar di kelas, praktikum, kuliah kerja lapangan, sampai kerja praktik! Gak cuma itu, ada juga momen seru kayak arak-arakan wisuda dan kebersamaan di himpunan, lho!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-5 mb-4 video-playlist" data-aos="fade-left" data-aos-delay="400">
+                    
+                    <div class="card mb-3 shadow-sm border-0 active" 
+                        data-video-id="tAzPvEIawCM"
+                        data-title="Pengenalan Jurusan TPSDA ITB"
+                        data-date="Dipublikasikan: 18 September 2025"
+                        data-desc="Intip keseruan kuliah di Program Studi Teknik dan Pengelolaan Sumber Daya Air, dari belajar di kelas, praktikum, kuliah kerja lapangan, sampai kerja praktik! Gak cuma itu, ada juga momen seru kayak arak-arakan wisuda dan kebersamaan di himpunan, lho!">
+                        <div class="row g-0">
+                            <div class="col-md-4"><div class="video-thumb-wrapper"><img src="https://i.ytimg.com/vi/tAzPvEIawCM/hqdefault.jpg" class="img-fluid rounded-start side-video-thumb" alt="Thumbnail Video 1"></div></div>
+                            <div class="col-md-8"><div class="card-body py-2"><h6 class="card-title fw-semibold"><a href="javascript:void(0)" class="text-decoration-none">Pengenalan Jurusan TPSDA ITB</a></h6><p class="card-text text-muted small">Click To Show !</p></div></div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 shadow-sm border-0"
+                        data-video-id="cP-yOGNWeXA"
+                        data-title="Bincang Alumni Perjalanan Karir Lulusan TPSDA"
+                        data-date="Dipublikasikan: 17 Maret 2024"
+                        data-desc="Di video kali ini kak rasyid memberikan sedikit cerita tentang perjalanan karir setelah lulus dari prodi TPSDA yang ada di kampus ITB nih gaisss. Penasaran gasii setelah lulus kita ngapain siiihhh? gimana pengalaman alumni kita setelah lulus dari tpsda? dan ada info menarik apa yaa dari hi-pod ini? langsung aja simak videonya sampai akhir yaaa!!!">
+                        <div class="row g-0">
+                            <div class="col-md-4"><div class="video-thumb-wrapper"><img src="https://i.ytimg.com/vi/cP-yOGNWeXA/hqdefault.jpg" class="img-fluid rounded-start side-video-thumb" alt="Thumbnail Video 2"></div></div>
+                            <div class="col-md-8"><div class="card-body py-2"><h6 class="card-title fw-semibold"><a href="javascript:void(0)" class="text-decoration-none">Bincang Alumni Perjalanan Karir Lulusan TPSDA</a></h6><p class="card-text text-muted small">Click To Show !</p></div></div>
+                        </div>
+                    </div>
+
+                    <div class="card mb-3 shadow-sm border-0" 
+                        data-source="instagram" 
+                        data-video-id="DSWOrhCE11L"
+                        data-title="Pengabdian Masyarakat di TPSDA, FTSL ITB"
+                        data-date="Dipublikasikan: 16 Desember 2025"
+                        data-desc="Kegiatan pengabdian masyarakat yang dilakukan oleh dosen dan mahasiswa TPSDA ITB untuk memberikan dampak nyata bagi lingkungan sekitar.">
+                        
+                        <div class="row g-0">
+                            <div class="col-md-4">
+                                <div class="video-thumb-wrapper">
+                                    <img src="assets/images/footage pengmas itb.jpeg" class="img-fluid rounded-start side-video-thumb" alt="Thumbnail IG">
+                                    <div style="position:absolute; bottom:5px; right:5px; color:white; text-shadow: 1px 1px 2px black;">
+                                        <i class="fab fa-instagram"></i>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-8">
+                                <div class="card-body py-2">
+                                    <h6 class="card-title fw-semibold">
+                                        <a href="javascript:void(0)" class="text-decoration-none">Pengabdian Masyarakat di TPSDA, FTSL ITB</a>
+                                    </h6>
+                                    <p class="card-text text-muted small">Click To Show !</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+
+            <div class="text-center mt-5" data-aos="fade-up" data-aos-delay="300">
+                <p class="text-white-50 mb-4 fw-light">Temukan konten seru lainnya di kanal resmi kami :</p>
+                
+                <div class="d-flex justify-content-center flex-wrap">
+                    <a href="https://www.youtube.com/results?search_query=tpsda+itb" target="_blank" class="btn-modern btn-youtube-glare">
+                        <i class="fab fa-youtube"></i> YouTube TPSDA
+                    </a>
+
+                    <a href="https://www.youtube.com/results?search_query=himasda+itb" target="_blank" class="btn-modern btn-youtube-glare">
+                        <i class="fab fa-youtube"></i> YouTube HIMASDA
+                    </a>
+                    
+                    <a href="https://www.instagram.com/tpsda_itb/" target="_blank" class="btn-modern btn-instagram-glare">
+                        <i class="fab fa-instagram"></i> IG TPSDA ITB
+                    </a>
+
+                    <a href="https://www.instagram.com/himasda_itb/" target="_blank" class="btn-modern btn-instagram-glare">
+                        <i class="fab fa-instagram"></i> IG HIMASDA
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-dark text-white pt-5 pb-4">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-6 mb-4">
+                    <h5>Tentang TPSDA ITB</h5>
+                    <p class="text-white-50">Program Studi Teknik dan Pengelolaan Sumber Daya Air, Fakultas Teknik Sipil dan Lingkungan, Institut Teknologi Bandung.</p>
+                </div>
+                <div class="col-lg-2 col-md-6 mb-4">
+                    <h5>Tautan Penting</h5>
+                    <ul class="list-unstyled">
+                        <li><a href="#" class="text-white-50 text-decoration-none">Webmail</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">SIX Akademik</a></li>
+                        <li><a href="#" class="text-white-50 text-decoration-none">Perpustakaan ITB</a></li>
+                    </ul>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Kontak Kami</h5>
+                    <p class="text-white-50">
+                        Jl. Ganesa No.10, Bandung, 40132<br>
+                        Email: tpsda@ftsl.itb.ac.id<br>
+                        Telp: +62 22 87836707
+                    </p>
+                </div>
+                <div class="col-lg-3 col-md-6 mb-4">
+                    <h5>Terhubung Dengan Kami</h5>
+                    <div class="footer-social-icons">
+                        <a href="https://www.instagram.com/agilhrlmbngg/" class="text-white me-3"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-youtube fa-2x"></i></a>
+                        <a href="#" class="text-white me-3"><i class="fab fa-facebook-f fa-2x"></i></a>
+                        <a href="https://www.linkedin.com/in/agil-herlambang-masadi-53a1b220a/" class="text-white me-3"><i class="fab fa-linkedin-in fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <hr>
+            <div class="text-center text-white-50">
+                <p>&copy; 2025 Jurusan TPSDA ITB. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init({
+          duration: 800,
+          once: true
+      });
+    </script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
